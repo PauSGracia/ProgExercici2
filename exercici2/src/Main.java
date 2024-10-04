@@ -17,7 +17,7 @@ public class Main {
             if (input.hasNextInt())
             {
                 numVip= input.nextInt();
-                //If it's a number, check if it's between 1 and 10
+                //If it's a number, check if it's between 1 and 2
                 if (numVip != 1 && numVip != 2) {
                     //If it's not, ask again
                     System.out.println("That's not a valid number");
